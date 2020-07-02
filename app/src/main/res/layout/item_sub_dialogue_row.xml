@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_white_round"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/SubParentLayoutItem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_toStartOf="@+id/subDialogueNext"
+            android:layout_toLeftOf="@+id/subDialogueNext"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/subDialogueEng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="asdfa"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subDialogueBan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="asdfa" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/subDialogueNext"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:scaleType="center"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_baseline_navigate_next_24" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

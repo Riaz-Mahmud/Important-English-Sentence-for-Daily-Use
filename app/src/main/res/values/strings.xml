@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">অতিপ্রয়োজনীয় ইংরেজি ডায়ালগ উচ্চারণসহ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">হোম</string>
+    <string name="menu_dialogue">ডায়লগসমূহ</string>
+    <string name="menu_favo">ফেভারিট</string>
+    <string name="privacy_policy">প্রাইভেসি পলিসি</string>
+    <string name="five_star_rating">৫ * রেটিং দিন</string>
+    <string name="share_with_others">শেয়ার করুন</string>
+    <string name="communicate">Communicate</string>
+    <string name="like_facebook">লাইক করুন</string>
+    <string name="more_apps">More Apps</string>
+    <string name="privacyText1"><b>Permissions to run the app:</b> The app asks for SD card or storage permission so that you can get the full facility of the dictionary when you are offline. To store the words, words meanings and some other necessary information it needs the SD card or storage permission. All the permissions are to make you experience better and user friendly. Hope you got the point.
+    \n\n<b>অ্যাপের প্রয়োজনীয় পারমিশনঃ</b> অ্যাপটি আপনার কাছে আপনার ফোনের স্টোরেজ এর পারমিশন চাইবে। কেননা আপনি যখন অফলাইনে অ্যাাপটি ব্যবহার করতে চাইবেন তখন জেনো কোন অসুবিধা না হয় সেজন্য শব্দ ও শব্দের অর্থসহ জুরুরী তথ্যগুলি আপনার স্টোরেজে সংরক্ষণ করতে এই পারমিশনটি জরুরী। আশা করি আপনি ব্যাপারগুলো ভালোভাবেই বুঝবেন।
+        \n\n<b>What information we do collect:</b> We do not collect any of the information about you, your device or about your location. It means we do not collect any of your information. So we are strictly maintaining your privacy.
+        \n\n<b>আপনার তথ্য সংগ্রহ ও সংরক্ষনঃ</b>আমরা নিশ্চিতভাবেই আপনার পাইভেসিকে মূল্যায়ন করি। আর তাই কোনভাবেই আমরা আপনার কোন রকম তথ্যই সংরক্ষন করিনা,যেমন আপনার ফোন নাম্বার, ডিভাইস ইনফরমেশন বা আপনার লোকেশন এমন কোন কিছুই আমরা সংরক্ষণ করিনা। আপনি আপনার প্রাইভেসির ব্যাপারে নিশ্চিন্ত থাকুন।
+        \n\n<b>How do we use your information:</b> Since we not collect any of your information thats why nothing to be mentioned in this regard.
+        \n\n<b>What information we do share:</b> We do not share your information with any one. Even with your buyer except your postal zone. If any one who is willing to buy your bike and want to talk with you then we give a facility to call you. This time buyer can see your phone number from his dial list. We do not show your phone number in any section of our app.
+        \n\n<b>Why shows ads:</b> You know the app is free, you can use the app even when you are in offline with free of cost. You know if we did make the ad free then we had to ask for payment from you to use the app. Just to give you cost free facility and to manage the operational cost of the app we placed some ad. In future we will remove those ads.
+        \n\n<b>কেন এড দেখায়?</b> আপনি জানেন যে অ্যাপটি ফ্রী, এমনকি অফলাইন ভার্সনেও। অ্যাপটি ব্যবহার করতে আপনাকে কোন টাকা খরচ করতে হবেনা। আমরা যদি এড বাদ দেই তাহলে এই অ্যাাপের পরিচালনার জন্য আমাদেরকে আপনাদের কাছ থেকে সাবস্ক্রিপশন ফি নিতে হতো। আপনাকে যেন কোন টাকা পয়সাই খরচ না করে বিনামূল্যে অ্যাাপটি ব্যবহার করে উপকৃত হতে পারেন সে জন্যই কয়েকটি এড দেয়া হয়েছে। ভবিষ্যতে এডগুলি সরিয়ে ফেলার সম্ভাবনা রয়েছে।
+        \n\n<b>Communicate with us:</b> Please mail us at the following address visionwindia@gmail.com
+        \n\n<b>আমাদের সাথে যোগাযোগঃ</b> উপরের দেয়া নাম্বার থেকে খুব সহজেই আপনি আমাদের সাথে যোগাযোগ করতে পারবেন। খুব ভালো হয় যদি আপনি উপরের মেইল এড্রেসে আমাদেরকে মেইল দেন। আমরা আপনার কাছ থেকে যোগাযোগের অপেক্ষায়।
+    </string>
+
+    <string-array name="dialogue_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="dialogue_list">
+
+        <item>Plan to এর ব্যবহার</item>
+        <item>দৈনন্দিন কথোপকথন পর্ব - ৪</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ পর্ব-১</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ পর্ব-২</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ পর্ব-৩</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ পর্ব-৪</item>
+
+    </string-array>
+
+
+    <string-array name="subDialogue_Eng_list1">
+        <item>I plan to visit Nepal</item>
+        <item>I plan to read the Gytanjoli</item>
+        <item>I Plan to learn new things</item>
+        <item>I plan to find for a new job</item>
+        <item>I plan to enjoy a movie</item>
+        <item>I plan to find a new destination</item>
+        <item>I plan to surprise my parents</item>
+        <item>I plan to open a bank account</item>
+    </string-array>
+
+    <string-array name="subDialogue_Ban_list1">
+        <item>Plan to এর ব্যবহার</item>
+        <item>দৈনন্দিন কথোপকথন পর্ব</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+    </string-array>
+
+    <string-array name="subDialogue_Eng_list2">
+        <item>Good to see you</item>
+        <item>Hows life</item>
+        <item>Hows your day</item>
+        <item>Its been a long time</item>
+        <item>How long has it been</item>
+        <item>Hows everything</item>
+        <item>Its been to long</item>
+        <item>It has been a long time</item>
+    </string-array>
+
+    <string-array name="subDialogue_Ban_list2">
+        <item>Plan to এর ব্যবহার</item>
+        <item>দৈনন্দিন কথোপকথন পর্ব</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+        <item>প্রয়োজনীয় ছোটছোট ডায়লগ</item>
+    </string-array>
+
+
+</resources>

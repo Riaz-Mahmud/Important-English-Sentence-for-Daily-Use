@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showClickDialogueActivity">
+
+
+    <View
+        android:id="@+id/topView"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/WhiteClose"
+        />
+
+    <TextView
+        android:id="@+id/textViewEng"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/topView"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/playSound"
+        android:layout_toLeftOf="@+id/playSound"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toStartOf="@+id/playSound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/playSound"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/topView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_baseline_record_voice_over_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/middleView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textViewEng"
+        android:layout_marginTop="0dp"
+        android:background="@color/WhiteClose" />
+
+    <TextView
+        android:id="@+id/textViewBan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/middleView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textViewBan"
+        android:layout_marginTop="0dp"
+        android:background="@color/WhiteClose" />
+
+
+</RelativeLayout>
